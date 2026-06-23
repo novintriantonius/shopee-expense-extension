@@ -2,7 +2,7 @@
 
 A powerful Chrome Extension to easily calculate your total expenses on Shopee. It automatically crawls through your past orders, summarizes your total spending, and lists out your purchases—all within your browser!
 
-![Extension Icon](shopee-favicon.png)
+<img width="368" height="562" alt="Screenshot 2026-06-23 at 09 14 51" src="https://github.com/user-attachments/assets/6f4372a3-5e3f-49b3-901e-4ec5496b4b98" />
 
 ## Features ✨
 - **1-Click Calculation:** Instantly start calculating your total spending on Shopee.
