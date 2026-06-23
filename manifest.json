@@ -1,0 +1,43 @@
+{
+  "manifest_version": 3,
+  "name": "Shopee Order Calculator",
+  "version": "1.0",
+  "description": "Calculate your total expenses on Shopee.",
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "storage"
+  ],
+  "host_permissions": [
+    "*://shopee.co.id/*",
+    "*://shopee.com.my/*",
+    "*://shopee.sg/*",
+    "*://shopee.ph/*",
+    "*://shopee.co.th/*",
+    "*://shopee.vn/*",
+    "*://shopee.tw/*",
+    "*://shopee.com.br/*",
+    "*://shopee.com.mx/*",
+    "*://shopee.com.co/*",
+    "*://shopee.cl/*"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "shopee-favicon.png",
+      "48": "shopee-favicon.png",
+      "128": "shopee-favicon.png"
+    }
+  },
+  "icons": {
+    "16": "shopee-favicon.png",
+    "48": "shopee-favicon.png",
+    "128": "shopee-favicon.png"
+  },
+  "web_accessible_resources": [
+    {
+      "resources": ["inject.js"],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}
